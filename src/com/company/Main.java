@@ -8,7 +8,7 @@ class FindCommon {
     void findCommon(int ar1[], int ar2[], int ar3[])
     {
 
-        int i = 0, j = 0, k = 0;
+        int i= 0, j = 0, k = 0;
 
         while (i < ar1.length && j < ar2.length
                 && k < ar3.length) {

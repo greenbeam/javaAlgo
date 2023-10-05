@@ -30,7 +30,7 @@ class Test
     // THEREFORE, THERE IS NO INDEX OUT OF BOUND CHECKING
     static int findPos(int arr[],int key)
     {
-        int l = 0, h = 1;
+        int l= 0, h = 1;
         int val = arr[0];
 
         // Find h to do binary search

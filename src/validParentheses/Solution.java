@@ -12,6 +12,7 @@ public class Solution {
             else if(st.isEmpty() || st.pop() != c)
                 return false;
         }
+
         return st.isEmpty();
     }
 }

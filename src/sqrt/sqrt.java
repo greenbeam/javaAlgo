@@ -17,7 +17,7 @@ public class sqrt {
 
     public static void main(String[] args) {
         sqrt sqr = new sqrt();
-        int x = 625;
+        int x = 144;
         System.out.println(sqr.mySqrt(x));
     }
 }

@@ -5,7 +5,7 @@ import java.util.List;
 
 
     public class parameters {
-        public static void main ( String [ ] args ) {
+        public static void main ( String [] args ) {
             List< Integer > list = new ArrayList< >( ) ;
             list.add(4) ;
             changeList(list) ;

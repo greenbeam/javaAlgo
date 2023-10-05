@@ -4,7 +4,7 @@ public class Palindrome {
         public boolean isPalindrome(String s) {
             // remove non-alphanumeric characters from string:
             s = s.replaceAll("[^a-zA-Z0-9]", "");
-            // use two pointers to compare:
+            // use two pointers to compare :
             int left = 0;
             int right = s.length()-1;
             while (left < right) {
